@@ -1,0 +1,110 @@
+/* Skills Page */
+
+
+.navbar{
+
+    width:95%;
+    margin:15px auto;
+
+    background:#43d7e5;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:22px 35px;
+
+}
+
+.logo{
+
+    color:#000000;
+
+    font-size:32px;
+
+    font-weight:bold;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    list-style:none;
+
+}
+
+.nav-links li{
+
+    margin-left:35px;
+
+}
+
+.nav-links a{
+
+    text-decoration:none;
+
+    color:#000000;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:white;
+
+}
+
+.skills{
+    width:90%;
+    margin:40px auto;
+}
+
+.skills h1{
+    font-size:42px;
+    margin-bottom:40px;
+}
+
+.skill-card{
+
+    width:520px;
+
+    margin:30px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+
+    transition:0.3s;
+}
+
+.skill-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 8px 18px rgba(0,0,0,.2);
+
+}
+
+.skill-card h2{
+
+    font-size:30px;
+
+    margin-bottom:15px;
+
+}
+
+.skill-card p{
+
+    font-size:20px;
+
+    color:#555;
+
+}
